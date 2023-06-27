@@ -26,9 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import kianashop from "./kianashop.png";
+import ercomercekiana from "./ercomercekiana.png";
+import weatherapp from "./weartherapp.png";
+import noupdate from "./noupdate.jpg";
 
 export {
   logo,
@@ -56,7 +57,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  kianashop,
+  ercomercekiana,
+  weatherapp,
+  noupdate
 };

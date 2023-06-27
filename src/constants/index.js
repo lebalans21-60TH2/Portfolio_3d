@@ -19,9 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  kianashop,
+  weatherapp,
+  ercomercekiana,
+  noupdate,
   threejs,
 } from "../assets";
 
@@ -42,12 +43,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer (ReactJS)",
+    title: "Full stack Developer (ReactJS/NodeJS)",
     icon: web,
   },
   {
-    title: "Web Developer (ReactJS)",
-    icon: web,
+    title: "Design, Create model 3D (Spline)",
+    icon: backend,
   },
   {
     title: "Design Frontend",
@@ -96,10 +97,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -108,65 +109,51 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Weather app",
+    company_name: "personal project",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "(August 11, 2022 - December 01, 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build and develop a weather web app using React.JS.",
+      "Front end: ReactJS,Tailwind css",
+      "Back end: NodeJS (express) & API from 'openweathermap.org'"
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full stack project ercomerce HouseWare Shop",
+    company_name: "personal project",
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 08, 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building and developing a web application for home sales using React.JS",
+      "Front end: reactJS, Material UI",
+      "Back end: NodeJS (Express) & MongoDB.",
+      
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Full stack project ecomerce project Kiana shop",
+    company_name: "personal project",
+    icon: reactjs,
+    iconBg: "#383E56",
+    date: "(December 03, 2022 - December 12, 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Build fashion sales web application using React.JS.",
+      "Front-end: ReactJS, Material-UI.",
+      "Back-end: NodeJS express) & MongoDB ",
+      "develop functionality and create new features for web application.",
     ],
-  },
+  }
 ];
 
 const testimonials = [
@@ -198,16 +185,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Weather app",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My first application in learning React.JS, an application for monitoring and looking up the weather of provinces and cities in the country.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +202,75 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: weatherapp,
+    source_code_link: "https://github.com/lebalans21-60TH2/Weather_app_react",
   },
   {
-    name: "Job IT",
+    name: "Full stack HouseWare Shop",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An e-commerce web application specializing in the sale of your kitchen appliances.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Material UI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: noupdate,
+    source_code_link: "https://github.com/lebalans21-60TH2/Houseware_shop",
   },
   {
-    name: "Trip Guide",
+    name: "Shop Fashion",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An e-commerce web application specializing in the sale of fashion products, the application has all the functions of an e-commerce website.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "NodeJS",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: kianashop,
+    source_code_link: "https://github.com/lebalans21-60TH2/doan",
+  },
+  {
+    name: "Ercomerce Kiana ",
+    description:
+      "The commerce app that I inspired by Shopee, where you are the buyer and you can also become the seller.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Socket io",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ercomercekiana,
+    source_code_link: "https://github.com/lebalans21-60TH2/shop_old_thing",
   },
 ];
 
